@@ -1,3 +1,3 @@
 запуск проекта: 
-    установка npm install
-    запуск из package.json "scripts" => "start"
+    1) установка npm install;
+    2) запуск из package.json "scripts" => "start".
