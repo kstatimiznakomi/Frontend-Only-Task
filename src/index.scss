@@ -1,0 +1,49 @@
+:root {
+  --font-family: "PT Sans", sans-serif;
+  --second-family: "Bebas Neue", sans-serif;
+  --button-number-border: #303E58;
+  --button-number-size: 56px;
+  --small-button-number-size: 56px;
+  --button-slider-border: #42567A;
+  --margin-80: 80px;
+  --stages-radius: calc(530px / 2);
+  --bg-white: #F4F5F9;
+
+  @font-face {
+    font-family: "PT_Sans";
+    src: url("./assets/fonts/PT_Sans/PT_Sans-Web-Bold.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    src: url("./assets/fonts/PT_Sans/PT_Sans-Web-Italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    src: url("./assets/fonts/PT_Sans/PT_Sans-Web-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    src: url("./assets/fonts/PT_Sans/PT_Sans-Web-Italic.ttf") format("ttf");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+}
+
+body {
+  background-color: var(--bg-white);
+  height: 100%;
+  overflow: hidden;
+}
